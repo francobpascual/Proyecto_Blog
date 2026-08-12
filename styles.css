@@ -3,6 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.navbar-collapse{
+    background-color: rgba(42, 130, 165, 0.651);
+    height:50px;
+}
+a{
+    font-family: "Bodoni Moda", serif;
+    
+}
 
 .firstWindows{
     width: 100%;
