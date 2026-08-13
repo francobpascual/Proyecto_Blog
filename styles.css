@@ -26,6 +26,7 @@
 .firstWindows{
     width: 100%;
     min-height: 100vh;
+    background-color: #F5DCC3;
    
 }
 #carouselExampleSlidesOnly img{
@@ -50,7 +51,7 @@
     display: flex;
     align-items: center;
 
-    background-color: #F5F1E8;
+    background-color: #EBC095; 
 
     border: 1px solid #C8BDA8;
     border-radius: 30px;
