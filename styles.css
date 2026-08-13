@@ -26,6 +26,7 @@
 .firstWindows{
     width: 100%;
     min-height: 100vh;
+    background-color: #F5DCC3;
    
 }
 #carouselExampleSlidesOnly img{
@@ -50,7 +51,7 @@
     display: flex;
     align-items: center;
 
-    background-color: #F5F1E8;
+    background-color: #EBC095;
 
     border: 1px solid #C8BDA8;
     border-radius: 30px;
@@ -89,3 +90,22 @@
     font-size: 25px;
     color: #8A6F3D;
 }
+
+.badge {
+    background-color: #A82E29;
+    color: #F5DCC3;
+    border-radius: 50px;
+}
+.boxCategory {
+    display: flex;
+    justify-content: center;
+
+}
+.boxCategory .list-group-item {
+    background-color: #EBC095;
+    border-color: #EBC095 ;
+    
+
+}
+
+
