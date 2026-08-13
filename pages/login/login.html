@@ -1,11 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Login- Login</title>
+
+    <!-- FUENTE INTER -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./login.css">
+
 </head>
+
 <body>
-    
+
+    <main class="pagina-login">
+
+        <section class="contenedor-login">
+
+            <!-- FORMULARIO -->
+
+            <article class="formulario-login">
+
+                <h1>
+                    Iniciar sesión
+                </h1>
+
+                <p>
+                    Ingresá a la administración del blog.
+                </p>
+
+                <form action="#" method="post">
+
+                    <label for="email">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Ingresá tu correo electrónico"
+                        required
+                    >
+
+                    <label for="password">
+                        Contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Ingresá tu contraseña"
+                        required
+                    >
+
+                    <label class="recordar">
+
+                        <input
+                            type="checkbox"
+                            name="recordar"
+                        >
+
+                        Recordarme
+
+                    </label>
+
+                    <button type="submit">
+                        Ingresar
+                    </button>
+
+                </form>
+
+                <p class="recuperar">
+                    <a href="#modal-recuperar">
+                        ¿Olvidaste tu contraseña?
+                    </a>
+                </p>
+
+                <h2>
+                    O ingresá con
+                </h2>
+
+                <a href="#" class="boton-google">
+                    Continuar con Google
+                </a>
+
+                <a href="#" class="boton-facebook">
+                    Continuar con Facebook
+                </a>
+
+                <p class="crear-cuenta">
+
+                    ¿No tenés una cuenta?
+
+                    <a href="#">
+                        Crear una cuenta
+                    </a>
+
+                </p>
+
+            </article>
+
+        
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL RECUPERAR CONTRASEÑA -->
+
+    <section id="modal-recuperar" class="modal">
+
+        <article class="contenido-modal">
+
+            <h2>
+                Recuperar contraseña
+            </h2>
+
+            <p>
+                Seguí estos pasos para recuperar el acceso
+                a tu cuenta.
+            </p>
+
+            <article class="paso">
+
+                <h3>
+                    Paso 1
+                </h3>
+
+                <p>
+                    Ingresá el correo electrónico asociado
+                    a tu cuenta.
+                </p>
+
+            </article>
+
+            <article class="paso">
+
+                <h3>
+                    Paso 2
+                </h3>
+
+                <p>
+                    Revisá tu correo electrónico y buscá
+                    el mensaje de recuperación.
+                </p>
+
+            </article>
+
+            <article class="paso">
+
+                <h3>
+                    Paso 3
+                </h3>
+
+                <p>
+                    Abrí el enlace que recibiste para
+                    cambiar tu contraseña.
+                </p>
+
+            </article>
+
+            <article class="paso">
+
+                <h3>
+                    Paso 4
+                </h3>
+
+                <p>
+                    Creá una nueva contraseña y volvé
+                    a iniciar sesión.
+                </p>
+
+            </article>
+
+            <a href="#" class="cerrar-modal">
+                Cerrar
+            </a>
+
+        </article>
+
+    </section>
+
 </body>
+
 </html>
