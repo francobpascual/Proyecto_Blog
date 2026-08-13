@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 .navbar-collapse{
-    background-color: rgba(42, 130, 165, 0.651);
+    background-color:#a0522d;
     height:50px;
-}
-a{
+    font-size:20px;
     font-family: "Bodoni Moda", serif;
-    
+
+}
+
+.button{
+    font-family: "Bodoni Moda", serif;
+    background-color: white;
+    border-radius: 60px;
+    border: none;
+}
+.modal.fade{
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+
 }
 
 .firstWindows{
