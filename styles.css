@@ -116,3 +116,14 @@
   
 
 }
+
+.imagen-hover {
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.imagen-hover:hover {
+    position: relative;
+    z-index: 9999;
+    transform: scale(3.0);
+}
