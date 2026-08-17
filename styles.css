@@ -109,4 +109,10 @@
 
 }
 
+.col-md-4{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
 
+}
