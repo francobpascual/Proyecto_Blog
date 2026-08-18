@@ -1,0 +1,36 @@
+body{
+            background-color: #f1e2a8;
+        }
+
+        .galeria-card{
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgb(239, 209, 143);
+            transition: transform .3s;
+        }
+
+        .galeria-card:hover{
+            transform: translateY(-8px);
+        }
+
+        .galeria-card img{
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform .5s ease;
+        }
+
+        .galeria-card:hover img{
+            transform: scale(1.1);
+        }
+
+        .btn-leer{
+            background-color: #8e1204;
+            color: rgb(226, 214, 148);
+            border: none;
+        }
+
+        .btn-leer:hover{
+            background-color: #8f2007;
+            color: rgb(230, 183, 126);
+        }
