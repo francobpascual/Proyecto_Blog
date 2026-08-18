@@ -9,9 +9,13 @@
     font-family: "Bodoni Moda", serif;
 
 }
-
-    
-
+.modal-header img{
+    width: 90px;
+}
+.modal-header{
+    display: flex;
+    justify-content: center;
+}
 
 .firstWindows{
     width: 100%;
