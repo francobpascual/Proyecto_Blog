@@ -9,6 +9,11 @@
     font-family: "Bodoni Moda", serif;
 
 }
+.d-flex button{
+    font-family: "Bodoni Moda", serif;
+    background-color: #008000;
+    font-size: 20px;
+}
 .modal-header img{
     width: 90px;
 }
