@@ -16,8 +16,9 @@ button.button{
     border-radius: 5px;
     font-size: 18px;
 }
-
-
+a.nav-link.active:hover{
+    color: #50C878;
+}
 .modal-header img{
     width: 90px;
 }
