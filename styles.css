@@ -3,55 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container-fluid{
-    background-color:  #6d2E25;
-    height:60px;
-    font-family: "Bodoni Moda", serif;
 
-}
-.navbar{
-    display:flex;
-    justify-content: end;
-}
-.navbar-brand{
-    color: white;
-}
-
-
-button.btn{
-    font-size: 20px;
-    color: white;
-}
-
-form{
-    font-family: "Bodoni Moda", serif;
-    background-color: #B22222;
-    border-radius: 60px;
-    border: none;
-    font-size: 20px;
     
-}
-.modal.fade{
-    font-family: "Bodoni Moda", serif;
-    font-size: 20px;
 
-}
-.modal-header{
-    border-bottom: none;
-}
-.modal-footer{
-    border-top: none;
-}
-.modal-imagen{
-    display: flex;
-    justify-content: center;
-}
-.modal-imagen img{
-    width: 90px;
-}
-.modal-button{
-    width: 100%;
-}
 
 .firstWindows{
     width: 100%;
