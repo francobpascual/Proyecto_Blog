@@ -38,7 +38,6 @@ h4{
     font-weight:900;
     color: black;
 
-}
 ul{
     list-style: none;
     padding: 0;
@@ -58,6 +57,11 @@ ul li a{
 }
 ul li a:hover{
     color: gray;
+}
+ul.footer-icons{
+    display: flex;
+    justify-content: start;
+    gap:20px;
 }
 
 
@@ -108,7 +112,7 @@ ul.footer-icons{
 }
 #carouselExampleSlidesOnly img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     object-fit: cover;
 
 }
