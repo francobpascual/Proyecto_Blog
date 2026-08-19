@@ -35,7 +35,7 @@ footer{
 }
 h4{
     font-family: "Archivo Black", sans-serif;
-    font-weight: 900;
+    font-weight:900;
     color: black;
 
 }
@@ -90,6 +90,11 @@ ul li{
     font-family: "Marcellus", serif;
     font-weight: 400;
     font-size: 18px;
+}
+ul.footer-icons{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
 }
 
 
