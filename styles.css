@@ -43,6 +43,37 @@ h4{
 
 
 
+footer{
+    background-color:#f5f5dc ;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px ;
+}
+
+h4{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
 .firstWindows{
     width: 100%;
     min-height: 100vh;
