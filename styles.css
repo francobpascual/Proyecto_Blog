@@ -107,7 +107,7 @@ ul.footer-icons{
 .firstWindows{
     width: 100%;
     min-height: 100vh;
-    background-color: white;
+    background-color: #F5EBDD;
    
 }
 #carouselExampleSlidesOnly img{
@@ -133,7 +133,7 @@ ul.footer-icons{
     align-items: center;
 
 
-    background-color: #EBC095;
+    background-color: #fce8cee5;
 
     border: 1px solid #C8BDA8;
     border-radius: 30px;
@@ -174,8 +174,8 @@ ul.footer-icons{
 }
 
 .badge {
-    background-color: #A82E29;
-    color: #F5DCC3;
+    background-color: #915452;
+    color: #fce8cee5;
     border-radius: 50px;
 }
 .boxCategory {
@@ -184,8 +184,9 @@ ul.footer-icons{
 
 }
 .boxCategory .list-group-item {
-    background-color: #EBC095;
-    border-color: #EBC095 ;
+    background-color: #f3dec3c7;
+    border-color: #f3dec3c7 ;
+    border-radius: 10px;
     
 
 }
@@ -220,4 +221,26 @@ ul.footer-icons{
 }
 .card {
     border: 0 !important;
+}
+
+.textTitle2{
+    color:#3B2A20 ;
+}
+
+.card-body {
+    background-color: #fce8cee5;
+
+}
+
+.titulo-seccion {
+    font-family: "Bodoni Moda", serif;
+    color: #3B2A20;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.titulo-seccion span {
+    font-size: 60px;
+    line-height: 0.8;
+    color: #A85C3B;
 }
