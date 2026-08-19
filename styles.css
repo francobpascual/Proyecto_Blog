@@ -209,3 +209,6 @@ ul li{
 
     
 }
+.card {
+    border: 0 !important;
+}
