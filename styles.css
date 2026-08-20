@@ -223,6 +223,33 @@ a.nav-link.active:hover{
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 20%;
+
+    background: linear-gradient(
+        to top,
+        rgba(245, 235, 221, 3.0),
+        rgba(245, 235, 221, 0)
+    );
+
+    pointer-events: none;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
 text-end .btn-ver-mas {
     background-color: #A85C3B !important;
     color: #e6ddf5 !important;
