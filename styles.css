@@ -56,11 +56,6 @@ ul li a{
     text-decoration: none;
     transition: .3s ease;
 }
- 
-
-
-  
-
 
 .firstWindows{
     width: 100%;
@@ -260,6 +255,7 @@ ul li a{
 .carousel-caption {
     z-index: 2;
 }
+
 
 text-end .btn-ver-mas {
     background-color: #A85C3B !important;
