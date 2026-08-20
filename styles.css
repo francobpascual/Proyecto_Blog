@@ -179,6 +179,15 @@ a.nav-link.active:hover{
 
 }
 
+.card {
+    background-color: #fce8cee5;
+    border: none;
+}
+
+.card .col-md-4 {
+    background-color: #fce8cee5;
+}
+
 .titulo-seccion {
     font-family: "Bodoni Moda", serif;
     color: #3B2A20;
@@ -208,3 +217,59 @@ a.nav-link.active:hover{
     color: #F5EBDD;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
+
+.pagination .page-link {
+    background-color: #F5EBDD;
+    color: #3B2A20;
+    border: 1px solid #C49A5A;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #A85C3B;
+    border-color: #A85C3B;
+    color: #FFFFFF;
+}
+
+<!--le doy estilo al boton activo y deshabilitado de la paginacion --!> 
+.pagination .page-item.active .page-link {
+    background-color: #28382B;
+    border-color: #28382B;
+    color: #F5EBDD;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #E6D8C5;
+    border-color: #D5C4AC;
+    color: #8C8174;
+}
+
+.text-end .btn-ver-mas {
+    background-color: #A85C3B !important;
+    color: #F5EBDD !important;
+    border: 1px solid #A85C3B !important;
+    border-radius: 15px !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.text-end .btn-ver-mas:hover {
+    background-color: #87452E !important;
+    border-color: #C49A5A !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
