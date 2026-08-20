@@ -4,27 +4,31 @@
     box-sizing: border-box;
 }
 .container-fluid{
-    background-color:  #f5f5dc;
+    background-color:#06402B;
     height:60px;
     font-family: "Bodoni Moda", serif;
+    color: white;
 
 }
 button.button{
     font-family: "Bodoni Moda", serif;
-    background-color: #50C878;
+    background-color: #7a5901;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 18px;
 }
 a.nav-link.active:hover{
     color: #50C878;
+}
+.navbar-brand{
+    width: 210px;
 }
 .modal-header img{
     width: 90px;
 }
 .modal-header{
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 footer{
     background:#06402B;
