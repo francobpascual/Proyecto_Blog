@@ -30,56 +30,18 @@ a.nav-link.active:hover{
     display: flex;
     justify-content:center;
 }
-footer{
-    background:#06402B;
-    color: white;
-    display: flex;
-    justify-content:space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 50px ;
-    
-}
-h4{
-    font-family: "Archivo Black", sans-serif;
-    font-weight:900;
-    color: black;
-}
-ul{
-    list-style: none;
-    padding: 0;
-    
-}
-ul li{
-    margin-bottom: 10px;
-    color: white;
-    font-family: "Marcellus", serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-ul li a{
-    color: white;
-    text-decoration: none;
-    transition: .3s ease;
-}
-ul li a:hover{
-    color: black;
-}
-ul.footer-icons{
-    display: flex;
-    justify-content: start;
-    gap:20px;
-}
+.containerFooter {
+    background-image: url(./assets/images/WhatsApp\ Image\ 2026-08-20\ at\ 01.03.39.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-h4{
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 900;
-    color: white;
+    color: #F5EBDD;
+    padding-top: 50px;
 }
 
 
-
-
+  
 
 
 .firstWindows{
