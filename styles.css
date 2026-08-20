@@ -23,12 +23,19 @@ a.nav-link.active:hover{
 .navbar-brand{
     width: 210px;
 }
+.modal-prueba{
+    background-image: url(./assets/images/FondoSuscripcion.avif);
+}
 .modal-header img{
     width: 90px;
 }
 .modal-header{
     display: flex;
     justify-content:center;
+}
+.input-imagen{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 .containerFooter {
     background-image: url(./assets/images/WhatsApp\ Image\ 2026-08-20\ at\ 01.03.39.jpeg);
