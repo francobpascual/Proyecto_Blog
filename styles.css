@@ -218,3 +218,20 @@ h4{
     line-height: 0.8;
     color: #A85C3B;
 }
+
+
+.carousel-caption h5 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F5EBDD;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
