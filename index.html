@@ -4,153 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles.css">
     
 </head>
 <body>
     <header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
-  <div class="container-fluid">
-    <img class="navbar-brand" src="./assets/images/LOGO.png" alt="logo">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active fs-5 text-white" aria-current="page" href="#">
-            Login <i class="fa-solid fa-right-to-bracket"></i>
-        </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fs-5 text-white" aria-current="page" href="#">
-            Contacto <i class="fa-regular fa-address-card"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fs-5 text-white" aria-current="page" href="#">
-            Nosotros <i class="fa-solid fa-person"></i></a>
-        </li>
-      </ul>
-                    <!-- BOTÓN QUE ABRE EL MODAL -->
-<button class="button"
-        type="button"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal">
-    Suscripción
-</button>
+    <nav class="navbar navbar-expand-md p-0">
+        <div class="container-fluid navbar-modificado">
+            <img class="navbar-brand"
+                 src="./assets/images/LOGO.png"
+                 alt="logo">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
 
-<!-- MODAL -->
-<div class="modal fade"
-     id="exampleModal"
-     tabindex="-1"
-     aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
+            <!-- MENÚ -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <div class="modal-dialog">
-        <div class="modal-content modal-prueba">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-            <!-- HEADER -->
-            <div class="modal-header">
-                <img src="./assets/images/icono de suscripcion.png"
-                     alt="persona">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text-white"
+                           href="#">
+                            Login
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text-white"
+                           href="#">
+                            Contacto
+                            <i class="fa-regular fa-address-card"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text-white"
+                           href="#">
+                            Nosotros
+                            <i class="fa-solid fa-person"></i>
+                        </a>
+                    </li>
+
+                    <!-- BOTÓN SUSCRIPCIÓN -->
+                    <li class="nav-item">
+                        <button class="button"
+                                type="button"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                            Suscripción
+                        </button>
+                    </li>
+
+                </ul>
+
             </div>
 
-
-            
-            <form>
-
-                
-                <div class="modal-body">
-
-                    <div class="mb-3">
-                        <label for="name" class="col-form-label">
-                            Nombre y Apellido:
-                        </label>
-
-                        <input
-                            class="input-imagen form-control" type="text" placeholder="Nombre y Apellido" id="nombre"required maxlength="40" minlength="6">
-                    </div>
-
-
-                    <div class="mb-3">
-                        <label for="email" class="col-form-label">
-                            correo electrónico:
-                        </label>
-
-                        <input class="input-imagen form-control" type="email" placeholder="tucorreo@gmail.com" id="correo" maxlength="30" minlength="6" required>
-                    </div>
-
-
-                    <div class="mb-3">
-                        <label for="birthdate" class="form-label" required>
-                            Fecha de tu cumpleaños:
-                        </label>
-
-                        <input class="input-imagen form-control" type="date" id="cumpleaños" required>
-                    </div>
-
-
-                    <div class="mb-3">
-                        <label for="contraseña" class="col-form-label">
-                            Contraseña:
-                        </label>
-
-                        <input class="input-imagen form-control" type="password" placeholder="Contraseña" id="contraseña" maxlength="16"  minlength="8" required>
-                    </div>
-
-
-                    <div class="mb-3">
-                        <label for="confirmarcontraseña" class="col-form-label">
-                            Confirmar contraseña:
-                        </label>
-
-                        <input class="input-imagen form-control" type="password" placeholder="Confirmar contraseña" id="confirmarcontraseña" maxlength="12" minlength="8" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <div class="form-check form-switch">
-
-                            <input class="form-check-input"  type="checkbox" role="switch" id="switchCheckChecked" checked>
-
-                            <label class="form-check-label" for="switchCheckChecked">
-                                Recibir notificaciones
-                            </label>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-
-                    <button type="submit" class="btn btn-primary">
-                        Crear cuenta
-                    </button>
-
-                    <hr>
-
-                    <p class="text-center mb-0 w-100">
-                        ¿Ya tenés cuenta?
-                        <a href="login.html">
-                            Iniciar sesión
-                        </a>
-                    </p>
-
-                </div>
-
-            </form>
-
         </div>
-    </div>
-</div>
-    </div>
-  </div>
-</nav>
-        
-
-    </header>
+    </nav>
+</header>
+   
     <div class="firstWindows">
          <!-- Slider con las imagenes de los Animales -->
 
@@ -185,11 +108,11 @@
         </div>
         <!-- Columnas de grid -->
 
-        <div class="container">
+        <div class="container my-4">
             <div class="row">
 
         <!-- PRIMERA COLUMNA o sea LA PRINCIPAL! -->
-                <main class="col-12 col-md-8 my-4 ">
+                <main class="col-12 col-md-8">
 
                             <h2 class="titulo-seccion">
                                 <span>U</span>ltimas entradas
@@ -369,7 +292,52 @@
             </div>
         </div>
     </div>
-   <footer>
+    <footer>
+        <div class="containerFooter">
+            <div class="container py-5">
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h3>Vivi la experiencia</h3>
+                        <p class="texto"> Te llevamos a los lugares mas increibles de africa.
+                            Para que vivas momentos que recordaras para siempre.
+                        </p>
+                        <button class="mi-boton px-3 py-2 rounded"> RESERVA TU SAFARI</button>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h3>Enlaces rápidos</h3>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="./pages/login/galery.html">Galeria de imagenes</a></li>
+                            <li><a href="#">Safaris</a></li>
+                            <li><a href="#">Destinos</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h3 class="titulo-con-iconos">Seguinos</h3>
+                        <div class="redes-sociales">
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fa-brands fa-facebook fs-4"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram fs-4"></i>
+                            </a>
+                            <a href="https://tiktok.com">
+                                <i class="fa-brands fa-tiktok fs-4"></i>
+                            </a>
+                            <a href="https://youtube.com">
+                                <i class="fa-brands fa-youtube fs-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <!--  <footer>
     <div class="containerFooter">
         <div class="row">
 
@@ -417,7 +385,172 @@
 
         </div>
     </div>
-</footer>
+</footer> -->
+
+<div class="modal fade"
+     id="exampleModal"
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content modal-prueba">
+
+            <!-- HEADER DEL MODAL -->
+            <div class="modal-header">
+
+                <img src="./assets/images/icono de suscripcion.png"
+                     alt="persona">
+
+            </div>
+
+
+            <!-- FORMULARIO -->
+            <form>
+
+                <div class="modal-body">
+
+                    <!-- NOMBRE -->
+                    <div class="mb-3">
+
+                        <label for="nombre" class="col-form-label">
+                            Nombre y Apellido:
+                        </label>
+
+                        <input
+                            class="input-imagen form-control"
+                            type="text"
+                            placeholder="Nombre y Apellido"
+                            id="nombre"
+                            maxlength="40"
+                            minlength="6"
+                            required>
+
+                    </div>
+
+
+                    <!-- CORREO -->
+                    <div class="mb-3">
+
+                        <label for="correo" class="col-form-label">
+                            Correo electrónico:
+                        </label>
+
+                        <input
+                            class="input-imagen form-control"
+                            type="email"
+                            placeholder="tucorreo@gmail.com"
+                            id="correo"
+                            maxlength="30"
+                            minlength="6"
+                            required>
+
+                    </div>
+
+
+                    <!-- FECHA -->
+                    <div class="mb-3">
+
+                        <label for="cumpleaños" class="form-label">
+                            Fecha de tu cumpleaños:
+                        </label>
+
+                        <input
+                            class="input-imagen form-control"
+                            type="date"
+                            id="cumpleaños"
+                            required>
+
+                    </div>
+
+
+                    <!-- CONTRASEÑA -->
+                    <div class="mb-3">
+
+                        <label for="contraseña" class="col-form-label">
+                            Contraseña:
+                        </label>
+
+                        <input
+                            class="input-imagen form-control"
+                            type="password"
+                            placeholder="Contraseña"
+                            id="contraseña"
+                            maxlength="16"
+                            minlength="8"
+                            required>
+
+                    </div>
+
+
+                    <!-- CONFIRMAR CONTRASEÑA -->
+                    <div class="mb-3">
+
+                        <label for="confirmarcontraseña" class="col-form-label">
+                            Confirmar contraseña:
+                        </label>
+
+                        <input
+                            class="input-imagen form-control"
+                            type="password"
+                            placeholder="Confirmar contraseña"
+                            id="confirmarcontraseña"
+                            maxlength="16"
+                            minlength="8"
+                            required>
+
+                    </div>
+
+
+                    <!-- NOTIFICACIONES -->
+                    <div class="mb-3">
+
+                        <div class="form-check form-switch">
+
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                role="switch"
+                                id="switchCheckChecked"
+                                checked>
+
+                            <label class="form-check-label"
+                                   for="switchCheckChecked">
+                                Recibir notificaciones
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOOTER -->
+                <div class="modal-footer">
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        Crear cuenta
+                    </button>
+
+                    <hr>
+
+                    <p class="text-center mb-0 w-100">
+                        ¿Ya tenés cuenta?
+                        <a href="login.html">
+                            Iniciar sesión
+                        </a>
+                    </p>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

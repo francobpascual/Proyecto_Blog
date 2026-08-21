@@ -3,10 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container-fluid{
-    background-color:#06402B;
-    height:60px;
-    font-family: "Bodoni Moda", serif;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.navbar-modificado {
+    background-color: #06402B;
+    min-height: 90px;
+    position: relative;
+    z-index: 1001;
 }
 
 button.button{
@@ -65,6 +77,7 @@ label{
     padding-top: 50px;
     display: flex;
     justify-content: center;
+    object-fit: cover;
     
 }
 
