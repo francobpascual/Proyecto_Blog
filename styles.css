@@ -7,21 +7,26 @@
     background-color:#06402B;
     height:60px;
     font-family: "Bodoni Moda", serif;
-    color: white;
-
 }
+
 button.button{
     font-family: "Bodoni Moda", serif;
     background-color: #7a5901;
     border: none;
     border-radius: 2px;
     font-size: 18px;
+
 }
 a.nav-link.active:hover{
     color: #50C878;
 }
+
 .navbar-brand{
     width: 210px;
+}
+
+li a i{
+    color: white;
 }
 .modal-prueba{
     background-image: url(./assets/images/FondoSuscripcion.avif);
@@ -36,6 +41,19 @@ a.nav-link.active:hover{
 .input-imagen{
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
+}
+
+
+label{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+}
+.text-center{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+
 }
 .containerFooter {
     background-image: url(./assets/images/WhatsApp\ Image\ 2026-08-20\ at\ 01.03.39.jpeg);
@@ -56,6 +74,10 @@ ul li a{
     text-decoration: none;
     transition: .3s ease;
 }
+
+
+
+
 
 .firstWindows{
     width: 100%;
