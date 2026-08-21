@@ -62,17 +62,33 @@ label{
     background-repeat: no-repeat;
     color: #F5EBDD;
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
 }
 
  ul li{
-    color: white;
+    color:#7a5901;
     font-family: "Marcellus", serif;
     font-size: 18px;
 }
 ul li a{
     color: white;
     text-decoration: none;
-    transition: .3s ease;
+}
+
+div.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+div.redes-sociales i {
+    color: #7a5901;
+}
+.mi-boton{
+    background-color:#06402B ;
+    color: #7a5901;
+    border: none;
+    
 }
 
 
