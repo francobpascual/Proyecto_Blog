@@ -34,3 +34,56 @@ body{
             background-color: #8f2007;
             color: rgb(230, 183, 126);
         }
+
+.container-fluid{
+    background-color:#06402B;
+    height:60px;
+    font-family: "Bodoni Moda", serif;
+}
+
+button.button{
+    font-family: "Bodoni Moda", serif;
+    background-color: #7a5901;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+
+}
+a.nav-link.active:hover{
+    color: #50C878;
+}
+
+.navbar-brand{
+    width: 210px;
+}
+
+li a i{
+    color: white;
+}
+.modal-prueba{
+    background-image: url(./assets/images/FondoSuscripcion.avif);
+}
+.modal-header img{
+    width: 90px;
+}
+.modal-header{
+    display: flex;
+    justify-content:center;
+}
+.input-imagen{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+
+label{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+}
+.text-center{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+
+}
