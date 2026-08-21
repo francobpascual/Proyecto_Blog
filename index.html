@@ -33,53 +33,118 @@
             Nosotros <i class="fa-solid fa-person"></i></a>
         </li>
       </ul>
-      <form class="d-flex">
-        <button  class="button" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Suscripcion</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content modal-prueba">
-                    <div class="modal-header">
-                        <img src="https://img.magnific.com/vector-premium/icono-usuario-establece-perfil-social-simbolo-vectorial-avatar-persona-cuenta-signo-web_268104-12507.jpg?semt=ais_test_b&w=740&q=80" alt="persona">
+                    <!-- BOTÓN QUE ABRE EL MODAL -->
+<button class="button"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+    Suscripción
+</button>
+
+
+<!-- MODAL -->
+<div class="modal fade"
+     id="exampleModal"
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog">
+        <div class="modal-content modal-prueba">
+
+            <!-- HEADER -->
+            <div class="modal-header">
+                <img src="https://img.magnific.com/vector-premium/icono-usuario-establece-perfil-social-simbolo-vectorial-avatar-persona-cuenta-signo-web_268104-12507.jpg?semt=ais_test_b&w=740&q=80"
+                     alt="persona">
+            </div>
+
+
+            
+            <form>
+
+                
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="name" class="col-form-label">
+                            Nombre y Apellido:
+                        </label>
+
+                        <input
+                            class="input-imagen form-control" type="text" placeholder="Nombre y Apellido" id="nombre"required maxlength="40" minlength="6">
                     </div>
-                    <div class="modal-body">
-                        <form>
-                        <div class=" mb-3">
-                            <label for="name"class="col-form-label">Nombre y Apellido:</label>
-                           <input class="input-imagen" type="text" placeholder="Nombre y Apellido" class="form-control" id="name" required>
+
+
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">
+                            correo electrónico:
+                        </label>
+
+                        <input class="input-imagen form-control" type="email" placeholder="tucorreo@gmail.com" id="correo" maxlength="30" minlength="6" required>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="birthdate" class="form-label" required>
+                            Fecha de tu cumpleaños:
+                        </label>
+
+                        <input class="input-imagen form-control" type="date" id="cumpleaños" required>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="contraseña" class="col-form-label">
+                            Contraseña:
+                        </label>
+
+                        <input class="input-imagen form-control" type="password" placeholder="Contraseña" id="contraseña" maxlength="16"  minlength="8" required>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="confirmarcontraseña" class="col-form-label">
+                            Confirmar contraseña:
+                        </label>
+
+                        <input class="input-imagen form-control" type="password" placeholder="Confirmar contraseña" id="confirmarcontraseña" maxlength="12" minlength="8" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check form-switch">
+
+                            <input class="form-check-input"  type="checkbox" role="switch" id="switchCheckChecked" checked>
+
+                            <label class="form-check-label" for="switchCheckChecked">
+                                Recibir notificaciones
+                            </label>
+
                         </div>
-                        
-            <div class="mb-3">
-            <label for="email" class="col-form-label">Email:</label>
-            <input class="input-imagen"  type="email"  placeholder="correo@gmial.com"class="form-control" id="email" maxlength="30" minlength="6" required>
-          </div>
-          <div class="mb-3">
-          <label for="birthdate" class="form-label">Fecha de nacimiento</label>
-          <input class="input-imagen"  type="date" class="form-control" id="birthdate" required>
-          </div>
-          <div class="mb-3">
-            <label for="contraseña" class="col-form-label">Contraseña:</label>
-            <input class="input-imagen" type="password" placeholder="contraseña" class="form-control" id="contraseña" maxlength="12" minlength="8" required>
-          </div>
-          <div class="mb-3">
-          <input  class="input-imagen" type="password" placeholder=" Confirmar contraseña" class="form-control" id="confirmarcontraseña" maxlength="12" minlength="8" required>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn btn-primary">
+                        Crear cuenta
+                    </button>
+
+                    <hr>
+
+                    <p class="text-center mb-0 w-100">
+                        ¿Ya tenés cuenta?
+                        <a href="login.html">
+                            Iniciar sesión
+                        </a>
+                    </p>
+
+                </div>
+
+            </form>
+
         </div>
-        <div class="mb-3">
-          <div class="form-check form-switch">
-          <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
-          <label class="form-check-label" for="switchCheckChecked">Recibir notificaciones</label>
-         </div>
-         </div>
-        </form>
-        </div>
-            <button type="submit" class="btn btn-primary">Crear cuenta</button>
-            <hr>
-            <p class="text-center mb-0">
-            ¿Ya tenés cuenta? <a href="login.html">Iniciar sesión</a>
-            </p>
-        </div>
-        </div>
-        </div>
-      </form>
+    </div>
+</div>
     </div>
   </div>
 </nav>

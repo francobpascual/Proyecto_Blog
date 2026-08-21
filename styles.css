@@ -31,6 +31,12 @@ li a i{
 .modal-prueba{
     background-image: url(./assets/images/FondoSuscripcion.avif);
 }
+
+.input-imagen {
+    background-color: rgba(255, 255, 255, 0.35) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #333;
+}
 .modal-header img{
     width: 90px;
 }
@@ -38,11 +44,6 @@ li a i{
     display: flex;
     justify-content:center;
 }
-.input-imagen{
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-}
-
 
 label{
     color: white;
