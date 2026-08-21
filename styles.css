@@ -3,8 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-html, body {
-    max-width: 100%;
+body {
+    max-width: 100vw;
     overflow-x: hidden;
 }
 .navbar-toggler {
@@ -114,7 +114,7 @@ div.redes-sociales i {
    
 }
 #carouselExampleSlidesOnly img{
-    width: 100%;
+    width: 100vw;
     height: 50vh;
     object-fit: cover;
 
@@ -210,7 +210,7 @@ div.redes-sociales i {
 .imagen-hover:hover {
     position: relative;
     z-index: 9999;
-    transform: scale(3.0);
+    transform: scale(1.5);
 }
 
 .comerce{
@@ -341,8 +341,6 @@ text-end .btn-ver-mas {
 }
 
 
-/* HOVER */
-
 .pagination .page-link:hover {
     background-color: #814b33;
     border-color: #A85C3B;
@@ -393,3 +391,13 @@ text-end .btn-ver-mas {
     }
 }
 
+@media (max-width: 767px) {
+
+    .reveal,
+    .reveal-right {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+}
