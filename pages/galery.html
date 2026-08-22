@@ -1,219 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./galery.css">
-</head>
-    <body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./galery.css" />
+  </head>
+  <body>
+    <main class="container py-5">
+      <h2 class="galeria-titulo text-center mb-5">Galería</h2>
 
-        <header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
-  <div class="container-fluid">
-    <img class="navbar-brand" src="./assets/images/LOGO.png" alt="logo">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active fs-5" aria-current="page" href="#">
-            Login <i class="fa-solid fa-right-to-bracket"></i>
-        </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fs-5" aria-current="page" href="#">
-            Contacto <i class="fa-regular fa-address-card"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active fs-5" aria-current="page" href="#">
-            Nosotros <i class="fa-solid fa-person"></i></a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <button  class="button" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Suscripcion</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content modal-prueba">
-                    <div class="modal-header">
-                        <img src="https://img.magnific.com/vector-premium/icono-usuario-establece-perfil-social-simbolo-vectorial-avatar-persona-cuenta-signo-web_268104-12507.jpg?semt=ais_test_b&w=740&q=80" alt="persona">
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                        <div class=" mb-3">
-                            <label for="name"class="col-form-label">Nombre y Apellido:</label>
-                           <input class="input-imagen" type="text" placeholder="Nombre y Apellido" class="form-control" id="name" required>
-                        </div>
-                        
-            <div class="mb-3">
-            <label for="email" class="col-form-label">Email:</label>
-            <input class="input-imagen"  type="email"  placeholder="correo@gmial.com"class="form-control" id="email" maxlength="30" minlength="6" required>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/los-chitas-estrellas-los-safaris-sudafrica.webp"
+              alt="Chita en la sabana africana"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Chita</h5>
+
+              <p class="card-text">
+                El chita es uno de los animales terrestres más rápidos del
+                mundo. Habita principalmente en las regiones abiertas de África.
+              </p>
+
+              <p class="card-info"><strong>Hábitat:</strong> Sabana africana</p>
+
+              <p class="card-info">
+                <strong>Velocidad:</strong> hasta 100 km/h
+              </p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
+            </div>
           </div>
-          <div class="mb-3">
-          <label for="birthdate" class="form-label">Fecha de nacimiento</label>
-          <input class="input-imagen"  type="date" class="form-control" id="birthdate" required>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img src="../../assets/images/galery/images.jpg" alt="Leopardo" />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Leopardo</h5>
+
+              <p class="card-text">
+                El leopardo es un felino ágil y sigiloso que se caracteriza por
+                su capacidad para trepar árboles y adaptarse a diferentes
+                ambientes.
+              </p>
+
+              <p class="card-info">
+                <strong>Hábitat:</strong> Bosques y sabanas
+              </p>
+
+              <p class="card-info"><strong>Alimentación:</strong> Carnívoro</p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="contraseña" class="col-form-label">Contraseña:</label>
-            <input class="input-imagen" type="password" placeholder="contraseña" class="form-control" id="contraseña" maxlength="12" minlength="8" required>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/AdobeStock_304069979.jpg"
+              alt="Cebra"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Cebra</h5>
+
+              <p class="card-text">
+                Las cebras son conocidas por sus características rayas blancas y
+                negras. Viven principalmente en las grandes llanuras africanas.
+              </p>
+
+              <p class="card-info"><strong>Hábitat:</strong> Praderas</p>
+
+              <p class="card-info"><strong>Alimentación:</strong> Herbívoro</p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
+            </div>
           </div>
-          <div class="mb-3">
-          <input  class="input-imagen" type="password" placeholder=" Confirmar contraseña" class="form-control" id="confirmarcontraseña" maxlength="12" minlength="8" required>
         </div>
-        <div class="mb-3">
-          <div class="form-check form-switch">
-          <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
-          <label class="form-check-label" for="switchCheckChecked">Recibir notificaciones</label>
-         </div>
-         </div>
-        </form>
-        </div>
-            <button type="submit" class="btn btn-primary">Crear cuenta</button>
-            <hr>
-            <p class="text-center mb-0">
-            ¿Ya tenés cuenta? <a href="login.html">Iniciar sesión</a>
-            </p>
-        </div>
-        </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</nav>
-        
 
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/vacaciones-africa-descubri-los-rincones-mas-encantadores-sudafrica-un-viaje-el-pais.webp"
+              alt="Elefante africano"
+            />
 
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Elefante</h5>
 
-    </header>
+              <p class="card-text">
+                El elefante africano es el animal terrestre más grande del
+                planeta. Se caracteriza por su gran inteligencia y
+                comportamiento social.
+              </p>
 
-        
+              <p class="card-info">
+                <strong>Hábitat:</strong> Sabana y bosques
+              </p>
 
-    <h2 class="text-center mb-5">Galería</h2>
+              <p class="card-info"><strong>Alimentación:</strong> Herbívoro</p>
 
-    <div class="row g-4">
-
-        <!-- Tarjeta 1 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/los-chitas-estrellas-los-safaris-sudafrica.webp" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">chita</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi maiores possimus quod ea aliquid esse facilis qui iusto, minima odio corporis animi quam in, rem numquam quae. Laboriosam, corrupti alias!
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
             </div>
+          </div>
         </div>
 
-        <!-- Tarjeta 2 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/images.jpg" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">lepsrdo</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis, rem nulla esse quam quibusdam, commodi deserunt ea dolores ipsa deleniti molestias laborum alias eius ullam nobis aliquam accusantium? Provident?
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/shutterstock_1720635901.jpg"
+              alt="Jirafa"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Jirafa</h5>
+
+              <p class="card-text">
+                La jirafa es el animal terrestre más alto del mundo. Su largo
+                cuello le permite alcanzar hojas ubicadas en las copas de los
+                árboles.
+              </p>
+
+              <p class="card-info"><strong>Hábitat:</strong> Sabana</p>
+
+              <p class="card-info"><strong>Altura:</strong> hasta 5,5 metros</p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
             </div>
+          </div>
         </div>
 
-        <!-- Tarjeta 3 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/AdobeStock_304069979.jpg" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">cebra</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestiae officiis nam voluptatem consequatur a impedit assumenda vel doloribus numquam harum quaerat eos animi commodi odio accusantium. Commodi, impedit odit.
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/AdobeStock_751873588.jpg"
+              alt="Leonas"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Leonas</h5>
+
+              <p class="card-text">
+                Las leonas son fundamentales dentro de las manadas. Generalmente
+                trabajan en grupo para cuidar a las crías y conseguir alimento.
+              </p>
+
+              <p class="card-info"><strong>Hábitat:</strong> Sabana africana</p>
+
+              <p class="card-info"><strong>Alimentación:</strong> Carnívora</p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
             </div>
+          </div>
         </div>
 
-        <!-- Tarjeta 4 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/vacaciones-africa-descubri-los-rincones-mas-encantadores-sudafrica-un-viaje-el-pais.webp" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">elefante</h5>
-                    <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque, rerum sapiente quis nihil dolor ratione tempore! Doloribus, error? Maxime iusto omnis adipisci expedita eligendi ab ad alias, dicta vero.
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/parque-nacional-pilanesberg-sudafrica-africa-istock.webp"
+              alt="Elefante africano"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Elefante africano</h5>
+
+              <p class="card-text">
+                Los elefantes viven en grupos familiares y utilizan sus trompas
+                para alimentarse, beber agua y comunicarse.
+              </p>
+
+              <p class="card-info">
+                <strong>Hábitat:</strong> África subsahariana
+              </p>
+
+              <p class="card-info">
+                <strong>Dato:</strong> posee una excelente memoria
+              </p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
             </div>
+          </div>
         </div>
 
-        <!-- Tarjeta 5 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/shutterstock_1720635901.jpg" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">jirafa</h5>
-                    <p class="card-text">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur excepturi voluptas praesentium. Accusamus necessitatibus impedit, quo aliquam earum ipsa repellendus cupiditate maiores sunt? Molestias eos ea, totam nesciunt sit minus!
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card galeria-card h-100">
+            <img
+              src="../../assets/images/galery/AdobeStock_79653055.jpg"
+              alt="Leopardos"
+            />
+
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Leopardos</h5>
+
+              <p class="card-text">
+                Los leopardos son animales solitarios y excelentes cazadores. Su
+                pelaje les permite camuflarse fácilmente entre la vegetación.
+              </p>
+
+              <p class="card-info">
+                <strong>Hábitat:</strong> Bosques y sabanas
+              </p>
+
+              <p class="card-info">
+                <strong>Característica:</strong> gran capacidad para trepar
+              </p>
+
+              <a href="./error404.html" class="btn btn-leer mt-auto"
+                >Leer más</a
+              >
             </div>
+          </div>
         </div>
-
-        <!-- Tarjeta 6 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/AdobeStock_751873588.jpg" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">leonas</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam blanditiis repellendus? Quae minima dolorum itaque velit fugit dolorem dicta vero. Illum adipisci, quae quis fuga tempore voluptate beatae maxime.
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tarjeta 7 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/parque-nacional-pilanesberg-sudafrica-africa-istock.webp" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">elefante</h5>
-                    <p class="card-text">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem consequuntur expedita quas nobis ut natus, numquam, nostrum tempora corporis, hic magni accusamus architecto voluptas pariatur in debitis exercitationem nesciunt?
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tarjeta 8 -->
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card galeria-card">
-                <img src="../../assets/images/galery/AdobeStock_79653055.jpg" alt="Imagen">
-                <div class="card-body text-center">
-                    <h5 class="card-title">leooardos</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae molestias, voluptas veniam nihil accusamus sapiente voluptatibus quia quas debitis deserunt et quisquam, earum, est a quo assumenda voluptatum odio.
-                    </p>
-                    <a href="#" class="btn btn-leer">Leer más</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-    </div>
-
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
