@@ -56,7 +56,6 @@ li a i{
     display: flex;
     justify-content:center;
 }
-
 label{
     color: white;
     font-family: "Archivo Black", sans-serif;
@@ -66,7 +65,6 @@ label{
     color: white;
     font-family: "Archivo Black", sans-serif;
     font-weight: 900;
-
 }
 .containerFooter {
     background-image: url(./assets/images/WhatsApp\ Image\ 2026-08-20\ at\ 01.03.39.jpeg);
@@ -78,9 +76,7 @@ label{
     display: flex;
     justify-content: center;
     object-fit: cover;
-    
 }
-
  ul li{
     color:#7a5901;
     font-family: "Marcellus", serif;
