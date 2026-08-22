@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto-zafarri</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Bodoni Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&display=swap" rel="stylesheet">
+
+    <!-- DM Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./contactos.css">
+</head>
+
+<body>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="contacto">
+
+        <h1>Contacto</h1>
+
+        <p class="descripcion">
+            ¿Tenés alguna consulta? Completá el formulario y
+            nos pondremos en contacto con vos.
+        </p>
+
+
+        <div class="contacto-contenedor">
+
+
+            <!-- MAPA -->
+            <section class="mapa-seccion">
+
+                <h2>Encontranos</h2>
+
+                <div class="mapa">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n%2C%20Argentina&output=embed"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+
+                <div class="direccion">
+
+                    <h3>Dirección</h3>
+
+                    <p>
+                        San Miguel de Tucumán, Tucumán, Argentina
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- FORMULARIO -->
+            <section class="formulario-seccion">
+
+                <h2>Enviá tu consulta</h2>
+
+                <form action="#" method="post">
+
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingresá tu nombre"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="email">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Ingresá tu correo"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="asunto">
+                            Asunto
+                        </label>
+
+                        <input
+                            type="text"
+                            id="asunto"
+                            name="asunto"
+                            placeholder="¿Cuál es el motivo de tu consulta?"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            placeholder="Escribí tu consulta..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button type="submit">
+                        Enviar consulta
+                    </button>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
