@@ -10,7 +10,6 @@ body {
 .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.5) !important;
 }
-
 .navbar-toggler-icon {
     filter: invert(1);
 }
@@ -20,30 +19,25 @@ body {
     position: relative;
     z-index: 1001;
 }
-
 button.button{
     font-family: "Bodoni Moda", serif;
     background-color: #7a5901;
     border: none;
     border-radius: 2px;
     font-size: 18px;
-
 }
 a.nav-link.active:hover{
     color: #50C878;
 }
-
 .navbar-brand{
     width: 210px;
 }
-
 li a i{
     color: white;
 }
 .modal-prueba{
     background-image: url(./assets/images/FondoSuscripcion.avif);
 }
-
 .input-imagen {
     background-color: rgba(255, 255, 255, 0.35) !important;
     border: 1px solid rgba(255, 255, 255, 0.6);
@@ -86,7 +80,6 @@ ul li a{
     color: white;
     text-decoration: none;
 }
-
 div.redes-sociales {
     display: flex;
     gap: 15px;
@@ -97,81 +90,56 @@ div.redes-sociales i {
 .mi-boton{
     background-color:#06402B ;
     color: #7a5901;
-    border: none;
-    
+    border: none;   
 }
-
-
-
 .firstWindows{
     width: 100%;
     min-height: 100vh;
-    background-color: #F5EBDD;
-   
+    background-color: #F5EBDD;  
 }
 #carouselExampleSlidesOnly img{
     width: 100vw;
     height: 50vh;
     object-fit: cover;
-
 }
-
-
 .buscador {
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 40px 0;
 }
-
 .search {
     width: 90%;
     max-width: 650px;
-
     display: flex;
     align-items: center;
-
-
     background-color: #fce8cee5;
-
     border: 1px solid #C8BDA8;
     border-radius: 30px;
-
     padding: 0 20px;
-
     transition: 0.3s;
 }
-
 .search:focus-within {
     border-color: #8A6F3D;
     box-shadow: 0 4px 15px rgba(80, 65, 40, 0.12);
 }
-
 .search input {
     width: 100%;
-
     border: none;
     outline: none;
-
     background: transparent;
-
     padding: 15px 12px;
-
     font-family: Arial, sans-serif;
     font-size: 16px;
-
     color: #3F3A2F;
 }
-
 .search input::placeholder {
     color: #8A8375;
 }
-
 .icono-busqueda {
     font-size: 25px;
     color: #8A6F3D;
 }
-
 .badge {
     background-color: #915452;
     color: #fce8cee5;
@@ -180,85 +148,62 @@ div.redes-sociales i {
 .boxCategory {
     display: flex;
     justify-content: center;
-
 }
 .boxCategory .list-group-item {
     background-color: #f3dec3c7;
     border-color: #f3dec3c7 ;
     border-radius: 10px;
-    
-
 }
-
 .col-md-4{
   display: flex;
   flex-direction: column;
   gap: 5px;
-  
-
 }
-
 .imagen-hover {
     cursor: pointer;
     transition: transform 0.5s ease;
 }
-
 .imagen-hover:hover {
     position: relative;
     z-index: 9999;
     transform: scale(1.5);
 }
-
 .comerce{
-
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 30px;
-
-    
+    margin-top: 30px;    
 }
 .card {
     border: 0 !important;
 }
-
 .textTitle2{
     color:#3B2A20 ;
 }
-
 .card-body {
     background-color: #fce8cee5;
-
 }
-
 .card {
     background-color: #fce8cee5;
-    border: none;
-    
+    border: none;   
 }
-
 .card .col-md-4 {
     background-color: #fce8cee5;
 }
-
 .card .col-md-8 {
     background-color: #fce8cee5;
 }
-
 .titulo-seccion {
     font-family: "Bodoni Moda", serif;
     color: #3B2A20;
     font-size: 40px;
     font-weight: 600;
 }
-
 .titulo-seccion span {
     font-size: 60px;
     line-height: 0.8;
     color: #A85C3B;
 }
-
-
 .carousel-caption h5 {
     font-family: "Bodoni Moda", serif;
     font-size: 52px;
@@ -266,7 +211,6 @@ div.redes-sociales i {
     color: whitesmoke;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
-
 .carousel-caption p {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
@@ -274,35 +218,26 @@ div.redes-sociales i {
     color: #F5EBDD;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
-
 .carousel-item {
     position: relative;
 }
-
 .carousel-item::after {
     content: "";
     position: absolute;
-
     left: 0;
     right: 0;
     bottom: 0;
-
     height: 20%;
-
     background: linear-gradient(
         to top,
         rgba(245, 235, 221, 3.0),
         rgba(245, 235, 221, 0)
     );
-
     pointer-events: none;
 }
-
 .carousel-caption {
     z-index: 2;
 }
-
-
 text-end .btn-ver-mas {
     background-color: #A85C3B !important;
     color: #e6ddf5 !important;
@@ -315,46 +250,36 @@ text-end .btn-ver-mas {
     text-decoration: none;
     transition: all 0.3s ease;
 }
-
 .text-end .btn-ver-mas:hover {
     background-color: #87452E !important;
     border-color: #C49A5A !important;
     color: #FFFFFF !important;
 }
-
 .pagination .page-link {
     background-color: #9b884b;
     color: #412818;
     border: 1px solid #C49A5A;
-
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 500;
-
     padding: 8px 14px;
-
     transition: all 0.3s ease;
 }
-
-
 .pagination .page-link:hover {
     background-color: #814b33;
     border-color: #A85C3B;
     color: #FFFFFF;
 }
-
 .reveal {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
 .reveal {
     animation: aparecer linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
 }
-
 @keyframes aparecer {
 
     from {
@@ -366,15 +291,12 @@ text-end .btn-ver-mas {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
-
 }
-
 .reveal-right {
     animation: aparecer-derecha linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 35%;
 }
-
 @keyframes aparecer-derecha {
     from {
         opacity: 0;
@@ -388,7 +310,6 @@ text-end .btn-ver-mas {
 }
 
 @media (max-width: 767px) {
-
     .reveal,
     .reveal-right {
         animation: none !important;
